@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="16dp"
+    tools:context="com.example.ahmed.thequizapp.StartingScreenActivity">
+
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="163dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="casual"
+        android:text="@string/start_quiz"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_Difficulty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="338dp"
+        android:layout_height="281dp"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_highscore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/startlogo" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/line"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Spinner
+        android:id="@+id/spinner_Difficulty"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00926969"
+        android:popupBackground="@color/colorPrimary"
+        android:spinnerMode="dialog"
+
+        app:layout_constraintBottom_toTopOf="@+id/button_start_quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_highscore" />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:text="@string/highscore_0"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_Difficulty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TheQuizApp</string>
+    <string name="ready"> Welcome to Quiz</string>
+    <string name="highscore_0">Highscore: 0</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="confirm">Confirm</string>
+    <string name="develop">Develop by</string>
+    <string name="mustafa_team"><![CDATA[Mustafa Ahmed]]></string>
+    <string name="about_us">       <b> About us \n </b> \n \n \t<i> We are students of Quli Qutub shah Govt polytechnic College
+         this app is Created by Mustafa ahmed Co created by Sultan Ahmed  \n </i>               </string>
+    <string name="c_and_datastructure">c and dataStructure</string>
+    <string name="digital_electronics">DIGITAL ELECTRONICS</string>
+</resources>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+android:useDefaultMargins="true"
+    android:layout_gravity="center"
+    android:isScrollContainer="true"
+    android:background="@color/colorPrimaryDark"
+    android:paddingTop="10dp"
+    android:paddingLeft="38dp"
+    android:paddingRight="36dp"
+    tools:context=".Category">
+
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="719dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:fillViewport="true">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                android:paddingTop="23dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+
+
+                <TextView
+                    android:id="@+id/De"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="casual"
+                    android:text="@string/digital_electronics"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nine"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+
+                <TextView
+                    android:id="@+id/ds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="casual"
+                    android:text="@string/digital_electronics"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nine"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+
+                <TextView
+                    android:id="@+id/os"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="casual"
+                    android:text="@string/digital_electronics"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/Os"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nine"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+
+                <TextView
+                    android:id="@+id/mp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="casual"
+                    android:text="@string/digital_electronics"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nine"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+                <TextView
+                    android:id="@+id/chn"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:textSize="15dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/digital_electronics">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+
+                <TextView
+                    android:id="@+id/ip"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:textSize="15dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/digital_electronics">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/seven"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nine"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.44" >
+                <TextView
+                    android:id="@+id/rdbms"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:textSize="15dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/digital_electronics">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/eight"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#00861717"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nine"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049">
+
+                <TextView
+                    android:id="@+id/co"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="casual"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="60dp"
+                    android:textSize="15dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/digital_electronics">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="167dp"
+                    android:layout_height="136dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_image"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/images" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
